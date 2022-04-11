@@ -50,7 +50,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
-  
+    padding-bottom: 100px;
 }
 
 header div{
@@ -77,6 +77,8 @@ header div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .information h2{
     text-align: center;
@@ -118,13 +120,59 @@ header div{
 height: 80px;
 width: 80px;
 }
+
 .cards h3{
 flex-basis:20%;
 color:orangered;
 text-align: center;
 }
+
 .cards p{
 flex-basis:60%;
 color:white;
 text-align: left;
+}
+
+.information-button{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.information-button a{
+    color: white;
+    background-color: orangered;
+    padding-left:40px;
+    padding-right:40px ;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    text-decoration: none;
+}
+
+.band-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.band h2{
+    text-align: center;
+}
+
+.band hr{
+    background-color:orangered;
+    height: 2px;
+    opacity: 0.99;
+    width: 80px;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.member-info hr{
+    background-color:gray;
+    width: 20px;
+    height: 1px;
 }
