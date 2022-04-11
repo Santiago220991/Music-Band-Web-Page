@@ -26,3 +26,22 @@
     width: 30px;
     filter: brightness(400%);
 }
+
+nav{
+    background-color: none;
+}
+.logo{
+    width: 80px;
+    height: 40px;
+}
+
+.lastbutton{
+    border: solid red 3px;
+    width: 100px;
+    padding-left: 6px;
+    
+}
+
+#promotions{
+    color:red;
+}
