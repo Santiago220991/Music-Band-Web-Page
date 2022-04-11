@@ -1,9 +1,20 @@
+@font-face {
+    font-family: "cocogoose";
+    src: url(./fonts/Cocogoose/Pro/Light-trial.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "lato";
+    src:url(./fonts/Lato-Black.ttf);
+}
+
 *{
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
 }
 .social-media{
     background-color: #272A31;
+    font-family: "lato";
 }
 .social-media ul{
     display: flex;
@@ -68,6 +79,7 @@ header div h2{
 }
 
 header div h1{
+    font-family:"cocogoose",sans-serif;
     font-size: 34px;
     font-weight: 900;
     background-image: linear-gradient(10deg, #E21143, #FFB03A);
@@ -151,13 +163,14 @@ width: 60px;
 }
 
 .cards h3{
-flex-basis:20%;
+flex-basis:30%;
 color:orangered;
 text-align: center;
+font-size: 3vh;
 }
 
 .cards p{
-flex-basis:60%;
+flex-basis:50%;
 color:white;
 text-align: left;
 }
@@ -172,11 +185,12 @@ text-align: left;
 .information-button a{
     color: white;
     background-color: orangered;
-    padding-left:40px;
-    padding-right:40px ;
+    padding-left:60px;
+    padding-right:60px ;
     padding-top: 20px ;
     padding-bottom: 20px ;
     text-decoration: none;
+    font-size: 32px;
 }
 
 .band-title{
