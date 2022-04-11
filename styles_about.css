@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "cocogoose";
+    src: url(./fonts/Cocogoose/Pro/Light-trial.ttf);
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "lato";
+    src: url(./fonts/Lato-Black.ttf);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .social-media {
+    background-color: #272a31;
+    font-family: "lato", sans-serif;
+  }
+  
+  .social-media ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 100px;
+    margin-bottom: 0;
+  }
+  
+  .social-media li {
+    list-style: none;
+    color: white;
+  }
+  
+  
+  .social-media li img {
+    height: 30px;
+    width: 30px;
+    filter: brightness(400%);
+  }
+  
+  nav {
+    background-color: transparent;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 40px;
+  }
+  
+  .lastbutton {
+    border: solid red 3px;
+    width: 100px;
+    padding-left: 6px;
+  }
+  
+  #promotions {
+    color: red;
+  }
+  
+  .mobile-background {
+    background-image: url("./images/world_tour_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+  }
+  
+  header {
+    padding-top: 30px;
+  }
+  
+  header div {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  header div h2 {
+    font-size: 34px;
+    color: orangered;
+  }
+  
+  header div h1 {
+    font-family: "cocogoose", sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    background-image: linear-gradient(10deg, #e21143, #ffb03a);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .textheader {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #cae7f6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
