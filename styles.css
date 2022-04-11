@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
 .social-media{
     background-color: #272A31;
 }
@@ -65,4 +64,67 @@ header div{
 
 .textheader-bottom p:nth-child(2){
     margin-bottom: 0;
+}
+
+.information{
+    background-image: url("./images/background_information.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.information-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information h2{
+    text-align: center;
+    color: white;
+}
+
+.information hr{
+    background-color:orangered;
+    height: 2px;
+    opacity: 0.99;
+    width: 80px;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cards-section{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 10px;
+}
+.cards{
+    display:flex;
+    align-items: center;
+    margin-left:20px ;
+    margin-right:20px ;
+    justify-content: space-around;
+    background-color: #3c3f46;
+    column-gap: 10px;
+    opacity: 0.80;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px ;
+    padding-right:20px ;
+}
+
+.cards img{
+height: 80px;
+width: 80px;
+}
+.cards h3{
+flex-basis:20%;
+color:orangered;
+text-align: center;
+}
+.cards p{
+flex-basis:60%;
+color:white;
+text-align: left;
 }
