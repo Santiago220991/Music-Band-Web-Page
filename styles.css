@@ -45,3 +45,24 @@ nav{
 #promotions{
     color:red;
 }
+
+.mobile-background{
+    background-image: url("./images/world_tour_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+  
+}
+
+header div{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.textheader{
+    padding-left: 25px;
+}
+
+.textheader-bottom p:nth-child(2){
+    margin-bottom: 0;
+}
