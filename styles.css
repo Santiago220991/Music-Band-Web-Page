@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.social-media{
+    background-color: #272A31;
+}
+.social-media ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap:8px;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.social-media li{
+    list-style: none;
+    color:white;
+}
+
+.social-media li img{
+    height: 30px;
+    width: 30px;
+    filter: brightness(400%);
+}
