@@ -32,6 +32,7 @@
   .social-media li {
     list-style: none;
     color: white;
+    display:none;
   }
   
   

@@ -16,6 +16,7 @@
 .social-media {
   background-color: #272a31;
   font-family: "lato", sans-serif;
+  display:none;
 }
 
 .social-media ul {
