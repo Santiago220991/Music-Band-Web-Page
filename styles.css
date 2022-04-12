@@ -1,12 +1,11 @@
 @font-face {
   font-family: "cocogoose";
-  src: url(./fonts/Cocogoose/Pro/Light-trial.ttf);
-  font-weight: bold;
+  src: url(./fonts/cocogoose.ttf);
 }
 
 @font-face {
   font-family: "lato";
-  src: url(./fonts/Lato-Black.ttf);
+  src: url(./fonts/lato.ttf);
 }
 
 * {
@@ -49,6 +48,8 @@ footer img {
   width: 150px;
   height: 150px;
 }
+
+
 
 .social-media li img {
   height: 30px;
@@ -99,8 +100,7 @@ header div h2 {
 
 header div h1 {
   font-family: "cocogoose", sans-serif;
-  font-size: 34px;
-  font-weight: 900;
+  font-size: 36px;
   background-image: linear-gradient(10deg, #e21143, #ffb03a);
   -webkit-background-clip: text;
   color: transparent;
@@ -249,8 +249,20 @@ footer p {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
+.position {
+  color:orangered;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.resume {
+  font-size: 13px;
+  line-height: 16px;
+}
 .member-info hr {
   background-color: gray;
   width: 20px;

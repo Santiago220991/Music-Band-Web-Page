@@ -1,12 +1,12 @@
 @font-face {
     font-family: "cocogoose";
-    src: url(./fonts/Cocogoose/Pro/Light-trial.ttf);
+    src: url(./fonts/cocogoose.ttf);
     font-weight: bold;
   }
   
   @font-face {
     font-family: "lato";
-    src: url(./fonts/Lato-Black.ttf);
+    src: url(./fonts/lato.ttf);
   }
   
   * {
@@ -85,7 +85,7 @@
   
   header div h1 {
     font-family: "cocogoose", sans-serif;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 900;
     background-image: linear-gradient(10deg, #e21143, #ffb03a);
     -webkit-background-clip: text;
