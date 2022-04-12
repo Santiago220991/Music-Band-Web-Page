@@ -59,8 +59,8 @@ nav {
   background-color: transparent;
 }
 
-.navbar-toggler.active{
-  display:none;
+.navbar-toggler.active {
+  display: none;
   background-color: red;
 }
 
