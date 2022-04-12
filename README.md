@@ -1,1 +1,66 @@
-# Music-Band-Web-Page
+
+# Project Name
+
+> Music Band Web Page
+
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+## Live Demo
+
+[Portfolio Live Demo Link ](https://santiago220991.github.io/Music-Band-Web-Page/)
+
+## Getting Started
+
+**This is a music band web page. It contains information like:**
+
+**Albums**
+
+**Videos**
+
+**Pictures**
+
+**Shop**
+
+**Live**
+
+
+**This project was made with HTML, CSS, Javascript and Boostrap 5.**
+
+
+To get a local copy up and running follow these simple example steps.
+
+
+## Setup
+
+- Clone the repository.
+- Open a browser an introduce the next URL http://127.0.0.1:5501/index.html
+
+
+## Authors
+
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/Santiago220991) 
+- Twitter: [@twitterhandle](https://twitter.com/SanCardenas10)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/santiago-cárdenas-671043160/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Santiago220991/Music-Band-Web-Page/issues).
+
+## Acknowledgments
+
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
