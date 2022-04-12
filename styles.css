@@ -49,6 +49,19 @@ footer img {
   height: 150px;
 }
 
+.more-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #424146;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .social-media li img {
   height: 30px;
   width: 30px;
@@ -129,6 +142,12 @@ footer p {
   flex-basis: 50%;
   color: white;
   text-align: left;
+}
+
+.more-container p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 .textheader-bottom p:nth-child(1) {
@@ -255,8 +274,8 @@ footer p {
   align-items: center;
 }
 
-.member.active{
-  display:none
+.member.active {
+  display: none;
 }
 
 .position {
@@ -275,6 +294,11 @@ footer p {
   background-color: gray;
   width: 20px;
   height: 1px;
+}
+
+.more-container img {
+  height: 12px;
+  width: 12px;
 }
 
 .sponsors {
