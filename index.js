@@ -44,6 +44,7 @@ const members = [
 
 const buttontoggle = document.querySelector('.navbar-toggler');
 const closebutton = document.querySelector('.btn-close');
+const bandsection=document.querySelector('.band')
 buttontoggle.addEventListener('click', () => {
   buttontoggle.classList.toggle('active');
 });
@@ -52,9 +53,9 @@ closebutton.addEventListener('click', () => {
   buttontoggle.classList.toggle('active');
 });
 
-const band = document.querySelector('.band-members');
+const bandmembers = document.querySelector('.band-members');
 members.forEach((element) => {
-  band.innerHTML += `<div class="member">
+  bandmembers.innerHTML += `<div class="member">
 <div class="member-images">
     <img src=${element.photo} alt="member photo">
 </div>
@@ -66,3 +67,26 @@ members.forEach((element) => {
 </div>
 </div>`;
 });
+
+const more=document.createElement('div')
+more.className="more-container"
+const hiddenmembers=document.querySelectorAll('.member')
+for(let i=2; i<=5; i+=1){
+  hiddenmembers[i].classList.toggle("active")
+}
+more.innerHTML=`<p class="more-button">See More</p>`
+bandsection.appendChild(more)
+
+
+more.addEventListener('click', ()=>{
+  for(let i=2; i<=5; i+=1){
+    hiddenmembers[i].classList.toggle("active")
+  }
+  if(more.textContent=="See More"){
+    console.l
+    more.textContent="See Less"
+  }else if(more.textContent=="See Less"){
+    more.textContent="See More"
+  }
+})
+

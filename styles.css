@@ -255,6 +255,10 @@ footer p {
   align-items: center;
 }
 
+.member.active{
+  display:none
+}
+
 .position {
   color: orangered;
   font-style: italic;
