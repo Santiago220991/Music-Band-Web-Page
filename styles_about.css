@@ -43,6 +43,8 @@
   
   nav {
     background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .logo {
@@ -66,6 +68,8 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   header {
@@ -94,6 +98,7 @@
   .textheader {
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 20px;
     font-size: 16px;
     font-weight: 500;
     border: 2px solid #cae7f6;
@@ -101,4 +106,89 @@
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
+  }
+
+  .contact-us {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  .contact-us p{
+    margin-bottom: 0;
+  }
+
+  .contact-us a{
+    color: #212529;
+    font-weight: bold;
+  }
+  
+  .info{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .info-title{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .info-title hr{
+  background-color: orangered;
+  height: 2px;
+  opacity: 0.99;
+  width: 30px;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  
+  }
+  .info p{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .logo-container{
+    border:gray 1px solid;
+    margin:20px;
+    padding:20px;
+  }
+
+  .past-tours{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .past-info{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .past-tours p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .past-info hr{
+  background-color: orangered;
+  height: 2px;
+  opacity: 0.99;
+  width: 30px;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  }
+
+  .past-tours-images{
+    display:flex;
+    row-gap:20px;
+    flex-direction: column;
+  }
+  .past-tours img{
+    width:100%;
+  padding-left: 20px;
+  padding-right: 20px;
   }
