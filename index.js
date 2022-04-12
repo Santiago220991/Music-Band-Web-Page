@@ -42,6 +42,16 @@ const members = [
   },
 ];
 
+const buttontoggle = document.querySelector('.navbar-toggler');
+const closebutton = document.querySelector('.btn-close');
+buttontoggle.addEventListener('click', () => {
+  buttontoggle.classList.toggle('active');
+});
+
+closebutton.addEventListener('click', () => {
+  buttontoggle.classList.toggle('active');
+});
+
 const band = document.querySelector('.band-members');
 members.forEach((element) => {
   band.innerHTML += `<div class="member">
