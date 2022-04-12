@@ -15,7 +15,7 @@
 .social-media {
   background-color: #272a31;
   font-family: "lato", sans-serif;
-  display:none;
+  display: none;
 }
 
 .social-media ul {
@@ -48,8 +48,6 @@ footer img {
   width: 150px;
   height: 150px;
 }
-
-
 
 .social-media li img {
   height: 30px;
@@ -253,7 +251,7 @@ footer p {
 }
 
 .position {
-  color:orangered;
+  color: orangered;
   font-style: italic;
   font-size: 13px;
   line-height: 15px;
@@ -263,6 +261,7 @@ footer p {
   font-size: 13px;
   line-height: 16px;
 }
+
 .member-info hr {
   background-color: gray;
   width: 20px;
