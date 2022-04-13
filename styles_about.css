@@ -11,28 +11,29 @@
 
 * {
   box-sizing: border-box;
+  font-family: "lato", sans-serif;
 }
 
 .social-media {
   background-color: #272a31;
   font-family: "lato", sans-serif;
+  display: none;
 }
 
 .social-media ul {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 20px;
   align-items: center;
   margin-left: 0;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-bottom: 0;
 }
 
 .social-media li {
   list-style: none;
   color: white;
-  display: none;
 }
 
 footer img {
@@ -40,7 +41,7 @@ footer img {
   height: 70px;
 }
 
-.past-tours img {
+.past-tours-images img {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -62,17 +63,17 @@ nav {
 }
 
 .logo {
-  width: 80px;
-  height: 40px;
+  width: 100px;
+  height: 60px;
 }
 
-.lastbutton {
-  border: solid red 3px;
-  width: 100px;
-  padding-left: 6px;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: orangered;
 }
 
 #promotions {
+  border: solid orangered 1px;
+  width: 85px;
   color: red;
 }
 
@@ -86,6 +87,7 @@ nav {
 
 header {
   padding-top: 30px;
+  text-align: center;
 }
 
 header div {
@@ -107,11 +109,15 @@ header div h1 {
   color: transparent;
 }
 
+header hr {
+  display: none;
+}
+
 .textheader {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   border: 2px solid #cae7f6;
   margin-top: 20px;
@@ -127,17 +133,19 @@ footer p {
 
 .contact-us {
   text-align: center;
-  font-weight: 500;
   margin-bottom: 0;
 }
 
 .contact-us p {
   margin-bottom: 0;
+  font-size: 12px;
 }
 
 .contact-us a {
   color: #212529;
-  font-weight: bold;
+  font-weight: 800;
+  font-family: "cocogoose", sans-serif;
+  font-size: 13px;
 }
 
 .info {
@@ -165,6 +173,7 @@ footer p {
   margin-bottom: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 12px;
 }
 
 .logo-container {
@@ -189,6 +198,7 @@ footer p {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  font-size: 12px;
 }
 
 .past-info hr {
@@ -256,4 +266,122 @@ footer {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media {
+    display: block;
+  }
+
+  .navbar-nav {
+    column-gap: 20px;
+    margin-right: 38px;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    25% {
+      transform: rotate(45deg);
+    }
+
+    75% {
+      transform: rotate(-45deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .navbar-brand {
+    text-align: center;
+    flex-basis: 25%;
+    animation-name: spin;
+    animation-duration: 3s;
+  }
+
+  #promotions {
+    width: auto;
+  }
+
+  .mobile-background {
+    background-image: none;
+    padding-bottom: 0;
+  }
+
+  header {
+    background-image: url("./images/world_tour_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  header div {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header div h1 {
+    font-size: 60px;
+  }
+
+  header div h2 {
+    display: none;
+  }
+
+  header hr {
+    display: block;
+    width: 30px;
+    background-color: orangered;
+    opacity: 1;
+  }
+
+  .textheader {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+  }
+
+  .logo-container {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .past-tours-images {
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+  }
+
+  .past-tours-images img {
+    width: 50%;
+  }
+
+  .sponsors {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+    column-gap: 60px;
+    background-color: #272a31;
+  }
+
+  footer div {
+    flex-basis: 50%;
+  }
+
+  footer p {
+    color: white;
+    font-size: 12px;
+  }
 }

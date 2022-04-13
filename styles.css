@@ -10,6 +10,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "lato", sans-serif;
 }
 
 .social-media {
@@ -22,10 +23,10 @@
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 20px;
   align-items: center;
   margin-left: 0;
-  margin-right: 100px;
+  margin-right: 150px;
   margin-bottom: 0;
 }
 
@@ -62,6 +63,11 @@ footer img {
   padding-bottom: 20px;
 }
 
+.more-container img {
+  height: 12px;
+  width: 12px;
+}
+
 .social-media li img {
   height: 30px;
   width: 30px;
@@ -78,17 +84,17 @@ nav {
 }
 
 .logo {
-  width: 80px;
-  height: 40px;
+  width: 100px;
+  height: 60px;
 }
 
-.lastbutton {
-  border: solid red 3px;
-  width: 100px;
-  padding-left: 6px;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: orangered;
 }
 
 #promotions {
+  border: solid orangered 1px;
+  width: 85px;
   color: red;
 }
 
@@ -125,7 +131,7 @@ header div h1 {
 .textheader {
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   border: 2px solid #cae7f6;
   margin-top: 20px;
@@ -136,12 +142,7 @@ header div h1 {
 
 footer p {
   margin: 0;
-}
-
-.cards p {
-  flex-basis: 50%;
-  color: white;
-  text-align: left;
+  font-size: 12px;
 }
 
 .more-container p {
@@ -150,8 +151,17 @@ footer p {
   margin-bottom: 0;
 }
 
+.cards p {
+  flex-basis: 50%;
+  color: white;
+  text-align: left;
+  font-size: 12px;
+}
+
 .textheader-bottom p:nth-child(1) {
   font-weight: 800;
+  font-family: "cocogosee", sans-serif;
+  font-size: 15px;
 }
 
 .textheader-bottom p:nth-child(2) {
@@ -205,7 +215,7 @@ footer p {
   justify-content: space-around;
   background-color: #3c3f46;
   column-gap: 10px;
-  opacity: 0.8;
+  opacity: 0.82;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -281,12 +291,12 @@ footer p {
 .position {
   color: orangered;
   font-style: italic;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 15px;
 }
 
 .resume {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 16px;
 }
 
@@ -294,11 +304,6 @@ footer p {
   background-color: gray;
   width: 20px;
   height: 1px;
-}
-
-.more-container img {
-  height: 12px;
-  width: 12px;
 }
 
 .sponsors {
@@ -350,4 +355,160 @@ footer {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media {
+    display: block;
+  }
+
+  .navbar-nav {
+    column-gap: 20px;
+    margin-right: 138px;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    25% {
+      transform: rotate(45deg);
+    }
+
+    75% {
+      transform: rotate(-45deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .navbar-brand {
+    text-align: center;
+    flex-basis: 25%;
+    animation-name: spin;
+    animation-duration: 3s;
+  }
+
+  #promotions {
+    width: auto;
+  }
+
+  .mobile-background {
+    background-image: none;
+    padding-bottom: 0;
+  }
+
+  header {
+    background-image: url("./images/world_tour_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+  }
+
+  header div {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .textheader {
+    margin-left: 10%;
+    width: 600px;
+  }
+
+  header div h1 {
+    font-size: 60px;
+    padding-right: 250px;
+  }
+
+  .cards p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .textheader-bottom p:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .textheader-bottom p:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .cards-section {
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    row-gap: 0;
+    column-gap: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .cards {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+
+  .cards:hover {
+    border: solid 2px white;
+  }
+
+  .cards img {
+    width: auto;
+    transition: transform 0.25s;
+  }
+
+  .cards img:hover {
+    transform: scale(1.2);
+  }
+
+  .cards h3 {
+    margin-top: 10px;
+  }
+
+  .information-button a {
+    text-decoration: underline;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+  }
+
+  .band-members {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .more-container {
+    display: none;
+  }
+
+  .member {
+    display: flex;
+  }
+
+  .member.active {
+    display: flex;
+  }
+
+  .sponsors-cards ul {
+    justify-content: center;
+  }
+
+  footer {
+    justify-content: center;
+    column-gap: 60px;
+  }
+
+  footer div {
+    flex-basis: 50%;
+  }
 }
