@@ -2,11 +2,11 @@ let wwidth = window.innerWidth;
 const footerlogo = document.querySelector('footer img');
 const footertext = document.querySelectorAll('footer div p');
 
-const page=document.querySelector('title')
-const about=document.querySelector('.about')
+const page = document.querySelector('title');
+const about = document.querySelector('.about');
 
-if(page.textContent=="Band About Page"){
-  about.style.color="red"
+if (page.textContent === 'Band About Page') {
+  about.style.color = 'red';
 }
 
 if (wwidth >= 768) {

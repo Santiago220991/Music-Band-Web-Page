@@ -67,8 +67,8 @@ nav {
   height: 60px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-  color:orangered
+.navbar-light .navbar-nav .nav-link:hover {
+  color: orangered;
 }
 
 #promotions {
@@ -144,9 +144,8 @@ footer p {
 .contact-us a {
   color: #212529;
   font-weight: 800;
-  font-family: "cocogoose",sans-serif;
+  font-family: "cocogoose", sans-serif;
   font-size: 13px;
-  
 }
 
 .info {
@@ -279,26 +278,23 @@ footer {
     margin-right: 38px;
   }
 
-
   @keyframes spin {
     0% {
-      transform: rotate(0deg)
+      transform: rotate(0deg);
     }
 
-    25%{
+    25% {
       transform: rotate(45deg);
     }
 
-    75%{
-      transform:rotate(-45deg)
+    75% {
+      transform: rotate(-45deg);
     }
 
-    100%{
-      transform:rotate(0deg)
+    100% {
+      transform: rotate(0deg);
     }
-
   }
-
 
   .navbar-brand {
     text-align: center;

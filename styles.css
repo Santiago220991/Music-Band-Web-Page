@@ -10,7 +10,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: "lato", sans-serif
+  font-family: "lato", sans-serif;
 }
 
 .social-media {
@@ -88,10 +88,9 @@ nav {
   height: 60px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-  color:orangered
+.navbar-light .navbar-nav .nav-link:hover {
+  color: orangered;
 }
-
 
 #promotions {
   border: solid orangered 1px;
@@ -161,7 +160,7 @@ footer p {
 
 .textheader-bottom p:nth-child(1) {
   font-weight: 800;
-  font-family: "cocogosee",sans-serif;
+  font-family: "cocogosee", sans-serif;
   font-size: 15px;
 }
 
@@ -370,28 +369,27 @@ footer {
 
   @keyframes spin {
     0% {
-      transform: rotate(0deg)
+      transform: rotate(0deg);
     }
 
-    25%{
+    25% {
       transform: rotate(45deg);
     }
 
-    75%{
-      transform:rotate(-45deg)
+    75% {
+      transform: rotate(-45deg);
     }
 
-    100%{
-      transform:rotate(0deg)
+    100% {
+      transform: rotate(0deg);
     }
-
   }
 
   .navbar-brand {
     text-align: center;
     flex-basis: 25%;
     animation-name: spin;
-  animation-duration: 3s;
+    animation-duration: 3s;
   }
 
   #promotions {
@@ -463,8 +461,8 @@ footer {
     transition: transform 0.25s;
   }
 
-  .cards img:hover{
-    transform: scale(1.2)
+  .cards img:hover {
+    transform: scale(1.2);
   }
 
   .cards h3 {
