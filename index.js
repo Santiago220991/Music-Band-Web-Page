@@ -42,9 +42,18 @@ const members = [
   },
 ];
 
+const wwidth = window.innerWidth;
+const footertext = document.querySelectorAll('footer div p');
 const buttontoggle = document.querySelector('.navbar-toggler');
 const closebutton = document.querySelector('.btn-close');
 const bandsection = document.querySelector('.band');
+
+if (wwidth >= 768) {
+  footertext[1].textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue tellus, eleifend vel scelerisque vel, aliquet ornare nibh. Morbi et ornare nisi, cursus sagittis tellus.';
+} else {
+  footertext[1].textContent = 'Some rights reserved';
+}
+
 buttontoggle.addEventListener('click', () => {
   buttontoggle.classList.toggle('active');
 });
@@ -97,17 +106,13 @@ more.addEventListener('click', () => {
   }
 });
 
-
-const footertext=document.querySelectorAll("footer div p")
-window.onresize=changefooter;
-console.log(footertext)
-function changefooter(){
-  let wwidth=window.innerWidth;
-  if(wwidth>=768){
-    footertext[1].textContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue tellus, eleifend vel scelerisque vel, aliquet ornare nibh. Morbi et ornare nisi, cursus sagittis tellus."
-    console.log("gola1")
-  }else{
-    footertext[1].textContent="Some rights reserved"
-    console.log("gola2")
+function changefooter() {
+  const wwidth = window.innerWidth;
+  if (wwidth >= 768) {
+    footertext[1].textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue tellus, eleifend vel scelerisque vel, aliquet ornare nibh. Morbi et ornare nisi, cursus sagittis tellus.';
+  } else {
+    footertext[1].textContent = 'Some rights reserved';
   }
 }
+
+window.onresize = changefooter;
