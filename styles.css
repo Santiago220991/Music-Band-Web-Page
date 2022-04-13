@@ -10,6 +10,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "lato", sans-serif
 }
 
 .social-media {
@@ -87,6 +88,11 @@ nav {
   height: 60px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+  color:orangered
+}
+
+
 #promotions {
   border: solid orangered 1px;
   width: 85px;
@@ -126,7 +132,7 @@ header div h1 {
 .textheader {
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   border: 2px solid #cae7f6;
   margin-top: 20px;
@@ -137,6 +143,7 @@ header div h1 {
 
 footer p {
   margin: 0;
+  font-size: 12px;
 }
 
 .more-container p {
@@ -149,10 +156,13 @@ footer p {
   flex-basis: 50%;
   color: white;
   text-align: left;
+  font-size: 12px;
 }
 
 .textheader-bottom p:nth-child(1) {
   font-weight: 800;
+  font-family: "cocogosee",sans-serif;
+  font-size: 15px;
 }
 
 .textheader-bottom p:nth-child(2) {
@@ -282,12 +292,12 @@ footer p {
 .position {
   color: orangered;
   font-style: italic;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 15px;
 }
 
 .resume {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 16px;
 }
 
@@ -418,7 +428,7 @@ footer {
 
   .cards p {
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .textheader-bottom p:nth-child(1) {

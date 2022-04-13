@@ -11,6 +11,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "lato", sans-serif;
 }
 
 .social-media {
@@ -66,6 +67,10 @@ nav {
   height: 60px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+  color:orangered
+}
+
 #promotions {
   border: solid orangered 1px;
   width: 85px;
@@ -112,7 +117,7 @@ header hr {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   border: 2px solid #cae7f6;
   margin-top: 20px;
@@ -128,17 +133,20 @@ footer p {
 
 .contact-us {
   text-align: center;
-  font-weight: 500;
   margin-bottom: 0;
 }
 
 .contact-us p {
   margin-bottom: 0;
+  font-size: 12px;
 }
 
 .contact-us a {
   color: #212529;
-  font-weight: bold;
+  font-weight: 800;
+  font-family: "cocogoose",sans-serif;
+  font-size: 13px;
+  
 }
 
 .info {
@@ -166,6 +174,7 @@ footer p {
   margin-bottom: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 12px;
 }
 
 .logo-container {
@@ -190,6 +199,7 @@ footer p {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  font-size: 12px;
 }
 
 .past-info hr {
@@ -376,5 +386,6 @@ footer {
 
   footer p {
     color: white;
+    font-size: 12px;
   }
 }

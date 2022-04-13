@@ -1,3 +1,4 @@
+
 const members = [
   {
     name: 'Yochai Benkler',
@@ -47,6 +48,12 @@ const footertext = document.querySelectorAll('footer div p');
 const buttontoggle = document.querySelector('.navbar-toggler');
 const closebutton = document.querySelector('.btn-close');
 const bandsection = document.querySelector('.band');
+const page=document.querySelector('title')
+const mainpage=document.querySelector('.main-page')
+console.log(mainpage)
+if(page.textContent=="Band Web Page"){
+  mainpage.style.color="red"
+}
 
 if (wwidth >= 768) {
   footertext[1].textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue tellus, eleifend vel scelerisque vel, aliquet ornare nibh. Morbi et ornare nisi, cursus sagittis tellus.';
