@@ -62,8 +62,8 @@ nav {
 }
 
 .logo {
-  width: 80px;
-  height: 40px;
+  width: 100px;
+  height: 60px;
 }
 
 #promotions{
@@ -347,13 +347,11 @@ footer {
   } 
 
   footer div{
-    flex-basis: 30%;
+    flex-basis: 50%;
     }
-
 
   footer p {
   color: white;
   }
 
-  
 }  
