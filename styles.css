@@ -206,7 +206,7 @@ footer p {
   justify-content: space-around;
   background-color: #3c3f46;
   column-gap: 10px;
-  opacity: 0.8;
+  opacity: 0.82;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -358,9 +358,30 @@ footer {
     margin-right: 138px;
   }
 
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg)
+    }
+
+    25%{
+      transform: rotate(45deg);
+    }
+
+    75%{
+      transform:rotate(-45deg)
+    }
+
+    100%{
+      transform:rotate(0deg)
+    }
+
+  }
+
   .navbar-brand {
     text-align: center;
     flex-basis: 25%;
+    animation-name: spin;
+  animation-duration: 3s;
   }
 
   #promotions {
@@ -429,6 +450,11 @@ footer {
 
   .cards img {
     width: auto;
+    transition: transform 0.25s;
+  }
+
+  .cards img:hover{
+    transform: scale(1.2)
   }
 
   .cards h3 {

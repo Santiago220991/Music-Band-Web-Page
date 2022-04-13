@@ -269,9 +269,32 @@ footer {
     margin-right: 38px;
   }
 
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg)
+    }
+
+    25%{
+      transform: rotate(45deg);
+    }
+
+    75%{
+      transform:rotate(-45deg)
+    }
+
+    100%{
+      transform:rotate(0deg)
+    }
+
+  }
+
+
   .navbar-brand {
     text-align: center;
     flex-basis: 25%;
+    animation-name: spin;
+    animation-duration: 3s;
   }
 
   #promotions {
