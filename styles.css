@@ -456,6 +456,10 @@ footer {
     flex-direction: column;
   }
 
+.cards:hover{
+  border: solid 2px white;
+}
+
   .cards img {
     width: auto;
     transition: transform 0.25s;
