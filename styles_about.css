@@ -73,8 +73,9 @@ nav {
 
 #promotions {
   border: solid orangered 1px;
-  width: 85px;
+  width: 94px;
   color: red;
+  padding-left: 4px;
 }
 
 .mobile-background {
@@ -305,6 +306,8 @@ footer {
 
   #promotions {
     width: auto;
+    padding-left: 2px;
+    width: 90px;
   }
 
   .mobile-background {
