@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
@@ -17,7 +18,7 @@ https://user-images.githubusercontent.com/98363075/163255587-28df1c81-fd05-4a0e-
 
 ## Live Demo
 
-[Portfolio Live Demo Link ](https://santiago220991.github.io/Music-Band-Web-Page/)
+[Portfolio Live Demo](https://santiago220991.github.io/Music-Band-Web-Page/)
 
 ## Getting Started
 
@@ -40,7 +41,7 @@ https://user-images.githubusercontent.com/98363075/163255587-28df1c81-fd05-4a0e-
 To get a local copy up and running follow these simple example steps.
 
 
-## Setup
+### Setup
 
 - Clone the repository.
 - Open a browser an introduce the next URL http://127.0.0.1:5501/index.html
