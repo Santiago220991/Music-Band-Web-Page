@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/98363075/163255587-28df1c81-fd05-4a0e-
 - Live
 
 
-This project was made with HTML, CSS, Javascript and Boostrap 5.
+This project was made with HTML, CSS, JavaScript and Boostrap 5.
 
 
 To get a local copy up and running follow these simple example steps.
