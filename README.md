@@ -1,8 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Music Band Web Page
 
-> Music Band Web Page
+> **This is a music band web page. It contains information like:**
+
+- Albums
+- Videos
+- Pictures
+- Shop
+- Live
+
+This project was made with HTML, CSS, JavaScript and Boostrap 5.
 
 
 https://user-images.githubusercontent.com/98363075/163255587-28df1c81-fd05-4a0e-be7d-71abf58b793a.mp4
@@ -18,25 +26,9 @@ https://user-images.githubusercontent.com/98363075/163255587-28df1c81-fd05-4a0e-
 
 ## Live Demo
 
-[Portfolio Live Demo](https://santiago220991.github.io/Music-Band-Web-Page/)
+[Music Band Web Page Live Demo](https://santiago220991.github.io/Music-Band-Web-Page/)
 
 ## Getting Started
-
-**This is a music band web page. It contains information like:**
-
-- Albums
-
-- Videos
-
-- Pictures
-
-- Shop
-
-- Live
-
-
-This project was made with HTML, CSS, JavaScript and Boostrap 5.
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -49,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 **Santiago**
 
 - GitHub: [@githubhandle](https://github.com/Santiago220991) 
 - Twitter: [@twitterhandle](https://twitter.com/SanCardenas10)
